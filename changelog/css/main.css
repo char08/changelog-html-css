@@ -1,0 +1,39 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; 
+    margin: 0; 
+}
+
+h1 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(58, 68, 68);
+}
+
+ul {
+    padding: 45px;
+    margin:  25px;
+    list-style-position: inside;
+    display: table;
+    background-color: rgba(135, 136, 192, 0.432);
+    border-radius: 25px;
+}
+
+ul li { 
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    border-style:hidden;
+    border-radius: 25px;
+    display: block;
+    padding: 10px;
+    margin-bottom: 25px;
+    background-color: rgba(255, 255, 255, 0.774);
+    transition: transform 0.3s ease-in-out;
+}
+li:hover{
+    transform:scale(1.05);
+}
